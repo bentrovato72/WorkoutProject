@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_chest">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.constraint.ConstraintLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/chestTextView"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:textStyle="bold"
+                android:layout_marginTop="28dp"
+                android:background="@drawable/workout_chooser_label_generic"
+                android:gravity="center_horizontal"
+                android:text="@string/chest"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/barbellBenchPressButton"
+                android:layout_width="395dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="94dp"
+                android:textSize="16sp"
+                android:background="@drawable/workout_chooser_button_background_generic"
+                android:text="@string/barbell_bench_press"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/dumbbellBenchPressButton"
+                android:layout_width="395dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="143dp"
+                android:textSize="16sp"
+                android:background="@drawable/workout_chooser_button_background_generic"
+                android:text="@string/dumbbell_bench_press"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/lowInclineBarbellBenchPressButton"
+                android:layout_width="395dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="192dp"
+                android:textSize="16sp"
+                android:background="@drawable/workout_chooser_button_background_generic"
+                android:text="@string/low_incline_barbell_bench_press"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/lowInclineDumbbellBenchPressButton"
+                android:layout_width="395dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="241dp"
+                android:textSize="16sp"
+                android:background="@drawable/workout_chooser_button_background_generic"
+                android:text="@string/low_incline_dumbbell_bench_press"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/inclineBarbellBenchPressButton"
+                android:layout_width="395dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="290dp"
+                android:textSize="16sp"
+                android:background="@drawable/workout_chooser_button_background_generic"
+                android:text="@string/incline_barbell_bench_press"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/inclineDumbbellBenchPressButton"
+                android:layout_width="395dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="339dp"
+                android:textSize="16sp"
+                android:background="@drawable/workout_chooser_button_background_generic"
+                android:text="@string/incline_dumbbell_bench_press"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/dumbbellFlyesButton"
+                android:layout_width="395dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="388dp"
+                android:textSize="16sp"
+                android:background="@drawable/workout_chooser_button_background_generic"
+                android:text="@string/dumbbell_flyes"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/inclineDumbbellFlyesButton"
+                android:layout_width="395dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="437dp"
+                android:textSize="16sp"
+                android:background="@drawable/workout_chooser_button_background_generic"
+                android:text="@string/incline_dumbbell_fly"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/machineChestPressButton"
+                android:layout_width="395dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="486dp"
+                android:textSize="16sp"
+                android:background="@drawable/workout_chooser_button_background_generic"
+                android:text="@string/machine_chest_press"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/chestDipsButton"
+                android:layout_width="395dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="535dp"
+                android:textSize="16sp"
+                android:background="@drawable/workout_chooser_button_background_generic"
+                android:text="@string/chest_dips"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/inclineCableFlyButton"
+                android:layout_width="395dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="584dp"
+                android:textSize="16sp"
+                android:background="@drawable/workout_chooser_button_background_generic"
+                android:text="@string/incline_cable_fly"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/dumbbellPulloverButton"
+                android:layout_width="395dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="633dp"
+                android:textSize="16sp"
+                android:background="@drawable/workout_chooser_button_background_generic"
+                android:text="@string/dumbbell_pullover"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/inclineDumbbellPulloverButton"
+                android:layout_width="395dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="682dp"
+                android:textSize="16sp"
+                android:background="@drawable/workout_chooser_button_background_generic"
+                android:text="@string/incline_dumbbell_pullover"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/machineChestFlyButton"
+                android:layout_width="395dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="731dp"
+                android:textSize="16sp"
+                android:background="@drawable/workout_chooser_button_background_generic"
+                android:text="@string/machine_chest_fly"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.constraint.ConstraintLayout>
