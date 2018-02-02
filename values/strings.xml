@@ -1,0 +1,82 @@
+<resources>
+    //workoutMain strings
+    <string name="app_name">WorkoutApp</string>
+    <string name="plus_symbol">plus symbol</string>
+    <string name="left_arrow">left arrow</string>
+    <string name="calendar_icon">calendar icon</string>
+    <string name="right_arrow">right arrow</string>
+    <string name="back_button">BACK</string>
+    <string name="home_button">HOME</string>
+
+    //workout chooser strings
+    <string name="arms">ARMS</string>
+    <string name="standing_dumbbell_curl">Standing Dumbbell Curl</string>
+    <string name="wide_grip_standing_barbell_curl">Wide-Grip Standing Barbell Curl</string>
+    <string name="barbell_curl">Barbell Curl</string>
+    <string name="zottman_curl">Zottman Curl</string>
+    <string name="ez_bar_curl">EZ Bar Curl</string>
+    <string name="hammer_curl">Hammer Curl</string>
+    <string name="cable_rope_hammer_curl">Cable Rope Hammer Curl</string>
+    <string name="sitting_dumbbell_curl">Sitting Dumbbell Curl</string>
+    <string name="ez_bar_preacher_curl">EZ Bar Preacher Curl</string>
+    <string name="incline_hammer_curl">Incline Hammer Curl</string>
+    <string name="incline_dumbbell_curl">Incline Dumbbell Curl</string>
+    <string name="incline_inner_bicep_curl">Incline Inner-Bicep Curl</string>
+    <string name="overhead_cable_curl">Overhead Cable Curl</string>
+    <string name="static_dumbbell_curl">Static Dumbbell Curl</string>
+    <string name="decline_dumbbell_curl">Decline Dumbbell Curl</string>
+    <string name="kneeling_single_arm_curl">Kneeling Single-Arm Curl</string>
+
+    <string name="legs">LEGS</string>
+    <string name="squats">Squats</string>
+    <string name="dumbbell_lunges">Dumbbell Lunges</string>
+    <string name="lying_leg_curls">Lying Leg Curls</string>
+    <string name="leg_curls">Leg Curls</string>
+    <string name="leg_extensions">Leg Extensions</string>
+    <string name="standing_calf_raises">Standing Calf Raises</string>
+    <string name="calf_raises">Calf Raises</string>
+
+    <string name="back">BACK</string>
+    <string name="barbell_deadlift">Barbell Deadlift</string>
+    <string name="wide_grip_pull_up">Wide-Grip Pull Up</string>
+    <string name="wide_grip_pull_down">Wide-Grip Pulldown</string>
+    <string name="close_grip_pull_down">Close-Grip Pulldown</string>
+    <string name="pull_up">Pull-Up</string>
+    <string name="standing_t_bar_row">Standing T-Bar Row</string>
+    <string name="wide_grip_seated_cable_row">Wide-Grip Seated Cable Row</string>
+    <string name="seated_cable_row">Seated Cable Row</string>
+    <string name="reverse_grip_smith_machine_row">Reverse-Grip Smith Machine Row</string>
+    <string name="single_arm_dumbbell_row">Single-Arm Dumbbell Row</string>
+
+    <string name="chest">CHEST</string>
+    <string name="barbell_bench_press">Barbell Bench Press</string>
+    <string name="dumbbell_bench_press">Dumbbell Bench Press</string>
+    <string name="low_incline_barbell_bench_press">Low Incline Barbell Bench Press</string>
+    <string name="low_incline_dumbbell_bench_press">Low Incline Dumbbell Bench Press</string>
+    <string name="incline_barbell_bench_press">Incline Barbell Bench Press</string>
+    <string name="incline_dumbbell_bench_press">Incline Dumbbell Bench Press</string>
+    <string name="dumbbell_flyes">Dumbbell Flyes</string>
+    <string name="incline_dumbbell_fly">Incline Dumbbell Fly</string>
+    <string name="machine_chest_press">Machine Chest Press</string>
+    <string name="chest_dips">Chest Dips</string>
+    <string name="incline_cable_fly">Incline Cable Fly</string>
+    <string name="dumbbell_pullover">Dumbbell Pullover</string>
+    <string name="incline_dumbbell_pullover">Incline Dumbbell Pullover</string>
+    <string name="machine_chest_fly">Machine Chest Fly</string>
+
+    <string name="shoulders">SHOULDERS</string>
+    <string name="dumbbell_shoulder_press">Dumbbell Shoulder Press</string>
+    <string name="barbell_shoulder_press">Barbell Shoulder Press</string>
+    <string name="seated_bent_over_rear_delt_raise">Seated Bent-Over Rear Delt Raise</string>
+    <string name="side_lateral_raise">Side Lateral Raise</string>
+    <string name="standing_front_barbell_raise">Standing Front Barbell Raise</string>
+    <string name="standing_front_dumbbell_raise">Standing Front Dumbbell Raise</string>
+    <string name="seated_barbell_military_press">Seated Barbell Military Press</string>
+    <string name="standing_barbell_military_press">Standing Barbell Military Press</string>
+    <string name="standing_dumbbell_military_press">Standing Dumbbell Military Press</string>
+    <string name="front_cable_raise">Front Cable Raise</string>
+    <string name="cable_lateral_raise">Cable Lateral Raise</string>
+    <string name="upright_cable_row">Upright Cable Row</string>
+    <string name="reverse_machine_flyes">Reverse Machine Flyes</string>
+
+</resources>

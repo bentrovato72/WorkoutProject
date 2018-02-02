@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home_button"
+        android:icon="@drawable/home_button"
+        android:title="@string/home_button"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/back_button"
+        android:icon="@drawable/previous_page_btn"
+        android:title="@string/back_button"
+        app:showAsAction="always" />
+</menu>
